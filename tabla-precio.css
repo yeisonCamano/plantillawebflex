@@ -1,0 +1,57 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tex-center {
+  text-align: center;
+}
+
+.columnas {
+  background: rgb(228, 228, 228);
+  color: #333;
+  border: 1px solid #333;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgb(221, 193, 193);
+  width: 23%;
+  box-sizing: border-box;
+}
+.precio {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: #00dac7;
+}
+.ancla {
+  text-decoration: none;
+  display: block;
+  background: salmon;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.ancla:hover {
+  background: #00dac7;
+}
+
+@media (max-width: 1147px) {
+  .columnas {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .columnas {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}
